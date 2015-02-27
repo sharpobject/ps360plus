@@ -1,0 +1,12 @@
+Directions are read using:
+in Rx 0x0f
+com Rx
+andi Rx 0x33
+
+(that's PINF bits 0,1,4,5)
+
+The bits correspond to the buttons as follows:
+0x01 = down
+0x02 = up
+0x10 = left
+0x20 = right
