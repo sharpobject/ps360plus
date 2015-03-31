@@ -10,3 +10,7 @@ The bits correspond to the buttons as follows:
 0x02 = up
 0x10 = left
 0x20 = right
+
+The read at 23be seems to be legitimately used, but it is split up.
+The com and andi happen at 2422.
+I'll need to make some space around there to put 6 consecutive bytes...
